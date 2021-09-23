@@ -33,7 +33,7 @@
                     </li>
         
                     <li class="item">
-                        <a class="link" href="./portfolio.html">
+                        <a class="link current" href="./portfolio.html">
                             Портфолио
                         </a>
                     </li>
@@ -49,13 +49,19 @@
         
             <ul class="site-contacts lists">
                 <li class="item">
-                    <a class="link icon-mail" href="mailto:info@devstudio.com">
+                    <a class="link" href="mailto:info@devstudio.com">
+                        <svg class="link-icon" width="16" height="12">
+                            <use href="./img/icons.svg#icon-mail"></use>
+                        </svg>
                         info@devstudio.com
                     </a>
                 </li>
-        
+                
                 <li class="item">
-                    <a class="link icon-phone" href="tel:+380961111111">
+                    <a class="link" href="tel:+380961111111">
+                        <svg class="link-icon" width="10" height="16">
+                            <use href="./img/icons.svg#icon-phone"></use>
+                        </svg>
                         +38 096 111 11 11
                     </a>
                 </li>
@@ -69,12 +75,12 @@
         <section class="section">
             <div class="container">
                 
-                <h1 class="section-title" hidden>Портфолио</h1>
+                <h1 class="section-title visually-hidden" >Портфолио</h1>
 
                 <ul class="portfolio-links lists">
 
                     <li class="item">
-                        <button type="button" class="button primary">Все</button>
+                        <button type="button" class="button primary current">Все</button>
                     </li>
 
                     <li class="item">
@@ -214,23 +220,72 @@
     </main>
     <!--Подвал сайта-->
     <footer class="footer">
-        <div class="container">
-            <a class="footer-logo" href="./index.html">
-                <span class="logo-text">Web</span>Studio
-            </a>
-            <address class="footer-address">
-                <ul class="footer-contacts lists">
-                    <li>
-                        <a href="#" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+        <div class="container footer-contant">
+        
+            <div class="footer-logo">
+        
+                <a class="footer-link" href="./index.html">
+                    <span class="logo-text">Web</span>Studio
+                </a>
+                <address class="footer-address">
+                    <ul class="footer-contacts lists">
+        
+                        <li class="link">
+                            <a href="#" class="address">г. Киев, пр-т Леси Украинки, 26</a>
+                        </li>
+        
+                        <li class="link">
+                            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+        
+                        <li class="link">
+                            <a href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+        
+                    </ul>
+                </address>
+            </div>
+        
+            <div class="footer-social">
+        
+                <b class="title">присоединяйтесь</b>
+        
+                <ul class="social-block lists">
+                    <li class="social-item">
+                        <a class="social-block__link test" href="#instagram">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        
+                    <li class="social-item">
+                        <a class="social-block__link test" href="#twitter">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        
+                    <li class="social-item">
+                        <a class="social-block__link test" href="#facebook">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
                     </li>
+        
+                    <li class="social-item">
+                        <a class="social-block__link test" href="#linkedin">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="./img/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+        
                 </ul>
-            </address>
+        
+            </div>
         </div>
     </footer>
 
